@@ -1,0 +1,42 @@
+<%- include('partials/header') -%>
+
+<h1 class="text">🦠Corona cases In <%=location%></h1>
+<div class="row">
+  <div class="card col col-md-3 col-sm-12" style="width: 18rem;">
+    <p class="total">Total Cases</p>
+    <div class="card-body">
+      <p class="card-text total">
+        <%=confirmed%>
+      </p>
+
+      <p class="card-text total">
+        ⬆ <%=increase_confirmed%>
+      </p>
+    </div>
+  </div>
+  <div class="card col col-md-3 col-sm-12" style="width: 18rem;">
+    <p class="recovered">Recovered</p>
+    <div class="card-body">
+      <p class="card-text recovered">
+        <%=recovered%>
+      </p>
+
+      <p class="card-text recovered">
+        ⬆ <%=increase_recovered%>
+      </p>
+    </div>
+  </div>
+  <div class="card col col-md-3 col-sm-12" style="width: 18rem;">
+    <p class="death">Death</p>
+    <div class="card-body">
+      <p class="card-text death">
+        <%=death%>
+      </p>
+
+      <p class="card-text death">
+        ⬆ <%=increase_death%>
+      </p>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer') -%>

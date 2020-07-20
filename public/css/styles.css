@@ -1,0 +1,65 @@
+.cardsection {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.countryflag {
+  height: 10px;
+  width: 10px;
+}
+.card-text {
+  font-family: "Archivo Black", sans-serif;
+}
+.card {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.avoid {
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+}
+.coronaimage {
+  border-radius: 100%;
+}
+.card {
+  text-align: center;
+}
+.row {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.top-img {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+}
+.text {
+  font-family: "Noticia Text", serif;
+  text-align: center;
+}
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  text-decoration: underline;
+}
+.total {
+  color: black;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+.recovered {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: medium;
+  /* text-decoration: underline; */
+}
+.death {
+  color: red;
+  font-weight: bold;
+  font-size: medium;
+  /* text-decoration: underline; */
+}
